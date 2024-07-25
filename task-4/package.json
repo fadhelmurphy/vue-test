@@ -1,0 +1,28 @@
+{
+  "name": "task-4",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --mode development --port 3000",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.11.1",
+    "@vitejs/plugin-vue-jsx": "^4.0.0",
+    "@vue-leaflet/vue-leaflet": "^0.10.1",
+    "@vue/apollo-composable": "^4.0.2",
+    "graphql": "^16.9.0",
+    "leaflet": "^1.9.4",
+    "leaflet.markercluster": "^1.5.3",
+    "pinia": "^2.1.7",
+    "vite-plugin-vue-devtools": "^7.3.7",
+    "vue": "^3.4.31",
+    "vue-router": "^4.4.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.5",
+    "vite": "^5.3.4"
+  }
+}
